@@ -19,7 +19,7 @@ export const Footer = () => {
               <a href="https://github.com/sofiamfernandez" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Github" /></a>
               <a href="https://www.instagram.com/sofia.m.fernandez/n" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Powered by Sophie Ferdz ♥</p>
           </Col>
         </Row>
       </Container>
