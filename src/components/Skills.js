@@ -16,7 +16,7 @@ import scrum from "../assets/img/scrum.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import colorSharp from "../assets/img/color-sharp.png"
+
 
 export const Skills = () => {
   const responsive = {
@@ -50,51 +50,51 @@ export const Skills = () => {
                         <p>My everyday tools</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <a  href="https://es.reactjs.org/" target="_blank" ><img src={react} alt="React" /></a>
+                                <a  href="https://es.reactjs.org/" target="_blank" rel="noopener noreferrer" ><img src={react} alt="React" /></a>
                                 <h5>Front-End</h5>
                             </div>
                             <div className="item">
-                                <a href='https://nodejs.org/es/'target="_blank" ><img src={node} alt="Node" /></a>
+                                <a href='https://nodejs.org/es/'target="_blank" rel="noopener noreferrer" ><img src={node} alt="Node" /></a>
                                 <h5>Back-End</h5>
                             </div>
                             <div className="item">
-                                <a href='https://www.javascript.com/' target="_blank"><img src={javascript} alt="Javascript" /></a>
+                                <a href='https://www.javascript.com/' target="_blank" rel="noopener noreferrer"><img src={javascript} alt="Javascript" /></a>
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <a href='https://wordpress.org/' target="_blank"><img src={wordpress} alt="WordPress" /></a>
+                                <a href='https://wordpress.org/' target="_blank" rel="noopener noreferrer"c><img src={wordpress} alt="WordPress" /></a>
                                 <h5>CMS</h5>
                             </div>
                             <div className="item">
-                                <a href='https://www.figma.com/'target="_blank" ><img src={figma} alt="Figma" /></a>
+                                <a href='https://www.figma.com/'target="_blank" rel="noopener noreferrer" ><img src={figma} alt="Figma" /></a>
                                 <h5>UX-UI Design</h5>
                             </div>
                             <div className="item">
-                                <a href='https://git-scm.com/' target="_blank" ><img src={git} alt="Git" /></a>
+                                <a href='https://git-scm.com/'target="_blank" rel="noopener noreferrer" ><img src={git} alt="Git" /></a>
                                 <h5>Version Control</h5>
                             </div>
                             <div className="item">
-                                <a href='https://www.mysql.com/' target="_blank"><img src={mysql} alt="Mysql" /></a>
+                                <a href='https://www.mysql.com/' target="_blank" rel="noopener noreferrer"><img src={mysql} alt="Mysql" /></a>
                                 <h5>Relational Database Management </h5>
                             </div>
                             <div className="item">
-                                <a href='https://code.visualstudio.com/' target="_blank"><img src={vs} alt="Visual Studio Code" /></a>
+                                <a href='https://code.visualstudio.com/'target="_blank" rel="noopener noreferrer"><img src={vs} alt="Visual Studio Code" /></a>
                                 <h5>Visual Studio Code</h5>
                             </div>
                             <div className="item">
-                                <a href='https://getbootstrap.com/' target="_blank"><img src={bootstrap} alt="Bootstrap" /></a>
+                                <a href='https://getbootstrap.com/' target="_blank" rel="noopener noreferrer"><img src={bootstrap} alt="Bootstrap" /></a>
                                 <h5>Bootstrap</h5>
                             </div>
                             <div className="item">
-                                <a href='https://sass-lang.com/' target="_blank" ><img src={sass} alt="Sass" /></a>
+                                <a href='https://sass-lang.com/' target="_blank" rel="noopener noreferrer"><img src={sass} alt="Sass" /></a>
                                 <h5>CSS Sass</h5>
                             </div>
                             <div className="item">
-                                <a href='https://powerbi.microsoft.com/en-au/' target="_blank"><img src={powerbi} alt="Power bi" /></a>
+                                <a href='https://powerbi.microsoft.com/en-au/' target="_blank" rel="noopener noreferrer"><img src={powerbi} alt="Power bi" /></a>
                                 <h5>Data Visualization</h5>
                             </div>
                             <div className="item">
-                                <a href='https://powerbi.microsoft.com/en-au/' target="_blank"><img src={scrum} alt="Scrum" /></a>
+                                <a href='https://powerbi.microsoft.com/en-au/'target="_blank" rel="noopener noreferrer"><img src={scrum} alt="Scrum" /></a>
                                 <h5>Scrum certified</h5>
                             </div>
                         </Carousel>
@@ -102,7 +102,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="left" />
+        
     </section>
   )
 }
