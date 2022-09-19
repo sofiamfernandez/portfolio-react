@@ -1,6 +1,5 @@
 # My portfolio React 
-![This is an image](https:/github.com/sofiamfernandez/portfolio-react/src/assets/img/header-img.png)
-
+![(https://www.sofiamfernandez.com/static/media/header-img.c9ff88a6f3b264922929.png)]
 ## Description
 
 This is a simple portfolio in React. It was built as a project to show people who might not be familiar with the syntax in React how to create and import components.
