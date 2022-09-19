@@ -1,5 +1,5 @@
 # My portfolio React 
-![(https://www.sofiamfernandez.com/static/media/header-img.c9ff88a6f3b264922929.png)]
+![sophie ferdz](https://www.sofiamfernandez.com/static/media/header-img.c9ff88a6f3b264922929.png)
 ## Description
 
 This is a simple portfolio in React. It was built as a project to show people who might not be familiar with the syntax in React how to create and import components.
