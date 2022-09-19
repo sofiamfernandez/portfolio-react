@@ -1,4 +1,4 @@
-# My portfolio React 
+# My React portfolio
 ![sophie ferdz](https://www.sofiamfernandez.com/static/media/header-img.c9ff88a6f3b264922929.png)
 ## Description
 
