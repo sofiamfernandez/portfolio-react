@@ -10,8 +10,8 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center h-footer">
-          <Col size={12} sm={6} className="logo-xs" >
-            <img src={logo} alt="Logo" />
+          <Col size={12} sm={6} className="logo-xs" href='#home' >
+            <img href='#home' src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -19,7 +19,7 @@ export const Footer = () => {
               <a href="https://github.com/sofiamfernandez" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Github" /></a>
               <a href="https://www.instagram.com/sofia.m.fernandez/n" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram" /></a>
             </div>
-            <p>Powered by Sophie Ferdz ♥</p>
+            <p>Powered with ♥ by Sophie Ferdz © 2022 </p>
           </Col>
         </Row>
       </Container>

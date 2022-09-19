@@ -18,41 +18,46 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Full-stack",
       description: "Design & Development",
       imgUrl: projImg1,
       button: "Go!",
-    
+      link: 'https://www.florianbourgine.com/',
     },
     {
-      title: "Business Startup",
+      title: "Web design",
       description: "Design & Development",
       imgUrl: projImg2,
       button: "Go!",
+      link: 'https://eve-cosplay-bootstrap.netlify.app/',
     },
     {
-      title: "Business Startup",
+      title: "Full-stack",
       description: "Design & Development",
       imgUrl: projImg3,
       button: "Go!",
+      link:'https://www.cofam.org.ar/',
     },
     {
-      title: "Business Startup",
+      title: "Full-stack",
       description: "Design & Development",
       imgUrl: projImg4,
       button: "Go!",
+      link:'https://minerosudaka.com/',
     },
     {
-      title: "Business Startup",
+      title: "Dark mode",
       description: "Design & Development",
       imgUrl: projImg5,
       button: "Go!",
+      link:'https://dark-mode-js-sass-bysofiafernandez.netlify.app/',
     },
     {
-      title: "Business Startup",
+      title: "React memo",
       description: "Design & Development",
       imgUrl: projImg6,
       button: "Go!",
+      link:'https://christmas-memo-react-app-bysofiafernandez.netlify.app/'
     },
   ];
 
@@ -93,12 +98,12 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    {/* <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                   </Tab.Content>
                 </Tab.Container>
               </div>}
